@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(36, 41, 54);
+  position: relative;
+  height: 50vh;
+}
+
+a, a:hover, a:focus, a:active {
+  all: unset;
+  
+}
+
+.signInANDpictureContainer {
+  display: flex;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%; 
+  margin-left: -300px;
+  margin-top: -30px;
+}
+
+.signInContainer {
+  border: 1px white solid;
+  border-radius: 15px;
+  padding: 20px;
+  height: 60vh;
+  width: 250px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 100%;
+  height: 60vh;
+}
+
+.inputContainer {
+  position: relative;
+  margin: 10px;
+}
+
+.passwordContainer {
+  position: relative;  
+  margin: 10px;
+}
+
+.inputBox {
+  padding: 5px 0px 5px 25px;
+  border: none;
+  border-radius: 3px;
+}
+
+.inputBox:focus {
+  outline: none;
+}
+
+#emailLogo {
+  font-size: 14px;
+  position: absolute;
+  left:6px;
+	font-weight:bold;
+	color:#444;
+	top: 6px;
+}
+
+#passwordLogo {
+  font-size: 14px;
+  position: absolute;
+  left:6px;
+	font-weight:bold;
+	color:#444;
+	top: 6px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+
+#successContainer {
+  padding: 20px;
+  border: 2px solid green;
+}
+
+#forgotPasswordContainer {
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.success {
+  font-size: 30px;
+  color: white;
+  margin: 30px;
+  position: relative;
+  top: 10%;
+}
+
+#forgotPass {
+  color: white;
+  margin: 30px 0px;
+  position: relative;
+  font-weight: normal;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btnContainer {
+  margin: 20px;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: darksalmon;
+  transition: all ease 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(100, 47, 29);
+  padding: 3px 8px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#forgotPassBTN {
+  color: white;
+  font-size: 12px;
+  margin: 10px;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(36, 41, 54);
+  transition: all ease 0.3s;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#forgotPassBTN:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#speechBubble {
+  font-size: 200px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+  right: 200px;
+  visibility: hidden;
+}
+
+.shame {
+  position: relative;  
+  right: 200px;
+  visibility: hidden;
+}
+
+.shame p{
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 75px;
+  width: 130px;
+  right: 37px;
+}
+
+#secretTextShame {
+  position: relative;  
+  right: 600px;
+  visibility: hidden;
+}
+
+#secretTextShame p{
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 75px;
+  width: 130px;
+  right: -239px;
+  font-weight: bold;
+}
+
+#speechBubbleSuccess {
+  font-size: 200px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+  right: 200px;
+}
+
+.successBubbleText {
+  position: relative;  
+  right: 200px;
+}
+
+.successBubbleText p {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 78px;
+  width: 130px;
+  right: 20px;
+}
+
+#speechBubbleSecretPassword {
+  font-size: 200px;
+  font-weight: normal;
+  color: white;
+  position: relative;
+  right: 200px;
+}
+
+.secretText {
+  position: relative;  
+  right: 500px;
+}
+
+.secretText p {
+  font-size: 21px;
+  color: white;
+  position: relative;
+  top: 76px;
+  width: 159px;
+  right: -129px;
+  font-weight: bold;
+}
